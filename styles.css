@@ -1,0 +1,50 @@
+
+.logo{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+body > div.logo > img{
+    width:100%;
+    max-width:800px;
+}
+/*#soundTile1{background-image: url("images/1.jpg");}
+#soundTile2{background-image: url("images/2.jpg");}
+#soundTile3{background-image: url("images/3.jpg");}
+#soundTile4{background-image: url("images/4.jpg");}
+#soundTile5{background-image: url("images/5.jpg");}
+#soundTile6{background-image: url("images/6.jpg");}
+#soundTile7{background-image: url("images/7.jpg");}
+#soundTile8{background-image: url("images/8.jpg");}
+#soundTile9{background-image: url("images/9.jpg");}*/
+  .image-grid{
+    font-size: 0;
+    flex-flow: row wrap;
+    display: flex;
+    padding: .1vh;
+  }
+
+  li {
+    flex: auto;
+    width: 20%;
+
+    margin: .1vh;
+  }
+
+  li:hover {
+    opacity: 0.8;
+  }
+
+
+  li > p{
+    display:none;
+  }
+  .li:hover p{
+    display:block;
+  }
+
+ul.image-grid > li > a >  img {
+          width: 100%;
+          height: auto;
+        }
