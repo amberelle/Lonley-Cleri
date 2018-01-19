@@ -1,13 +1,14 @@
 
 .logo{
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
+
 }
 
 body > div.logo > img{
-    width:100%;
-    max-width:800px;
+  display: block;
+  max-width:800px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 /*#soundTile1{background-image: url("images/1.jpg");}
 #soundTile2{background-image: url("images/2.jpg");}
@@ -27,9 +28,21 @@ body > div.logo > img{
 
   li {
     flex: auto;
-    width: 20%;
+   width:auto;
 
     margin: .1vh;
+  }
+  @media (max-width:768px){
+
+  }
+  @media (max-width:520px){
+    li{
+      width:49%;
+    }
+
+  }
+  @media (max-width:300px){
+
   }
 
   li:hover {
